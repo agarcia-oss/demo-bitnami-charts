@@ -23,8 +23,8 @@ dependencies:
     alias: rabbitmq
     condition: rabbitmq.enabled
   - name: postgresql
-    repository: oci://registry-1.docker.io/bitnamicharts
-    version: 14.2.4
+    repository: oci://harbor-repo.vmware.com/vac_vmware_it/charts/photon-4
+    version: 14.2.6
     condition: postgresql.enabled
   - name: nginx
     repository: oci://registry-1.docker.io/bitnamicharts

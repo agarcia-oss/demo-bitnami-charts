@@ -12,10 +12,10 @@ dependencies:
   repository: oci://registry-1.docker.io/bitnamicharts
   version: 12.14.0
 - name: postgresql
-  repository: oci://registry-1.docker.io/bitnamicharts
-  version: 14.2.4
+  repository: oci://harbor-repo.vmware.com/vac_vmware_it/charts/photon-4
+  version: 14.2.6
 - name: nginx
   repository: oci://registry-1.docker.io/bitnamicharts
   version: 15.12.2
-digest: sha256:92cb2c6cce89a7f1c1d5a8def9b1390a7267a931d7613d623104f97f1c749385
-generated: "2024-03-04T13:34:53.749552+01:00"
+digest: sha256:363801303e40c3fd451a285750168c36489dc82e0838581e5004615153950fbe
+generated: "2024-03-04T17:41:41.110372+01:00"
