@@ -759,6 +759,8 @@ postgresql:
   nameOverride: sentry-postgresql
   postgresqlUsername: postgres
   postgresqlDatabase: sentry
+  service:
+    port: 5432
   replication:
     enabled: false
     readReplicas: 2
