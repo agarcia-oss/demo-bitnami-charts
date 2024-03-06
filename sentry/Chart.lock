@@ -9,13 +9,13 @@ dependencies:
   repository: oci://harbor-repo.vmware.com/vac_vmware_it/charts/photon-4
   version: 5.3.1
 - name: rabbitmq
-  repository: oci://registry-1.docker.io/bitnamicharts
-  version: 12.14.0
+  repository: oci://harbor-repo.vmware.com/vac_vmware_it/charts/photon-4
+  version: 12.14.2
 - name: postgresql
   repository: oci://harbor-repo.vmware.com/vac_vmware_it/charts/photon-4
   version: 14.2.6
 - name: nginx
-  repository: oci://registry-1.docker.io/bitnamicharts
-  version: 15.12.2
-digest: sha256:9481f509a8ca46c44277ff1d11145905cff337f18839e5c89836c9d28b061545
-generated: "2024-03-06T13:12:28.013281+01:00"
+  repository: oci://harbor-repo.vmware.com/vac_vmware_it/charts/photon-4
+  version: 15.12.4
+digest: sha256:ef24dff9cd99478b8e9eef78d8fe14626f85ebd72355536dedcf3f1f1df5401f
+generated: "2024-03-06T13:20:27.742687+01:00"

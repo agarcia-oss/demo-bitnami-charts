@@ -118,8 +118,8 @@ clickhouse:
   ## The instance number of Clickhouse
   replicas: "3"
   ## Clickhouse image configuration.
-  image: "yandex/clickhouse-server"
-  imageVersion: "19.14"
+  image: "harbor-repo.vmware.com/vac_vmware_it/containers/photon-4/clickhouse"
+  imageVersion: "24.2.1-photon-4-r0"
   imagePullPolicy: "IfNotPresent"
 
   ## The resource limits and requests used by clickhouse

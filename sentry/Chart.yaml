@@ -18,8 +18,8 @@ dependencies:
     version: 5.3.1
     condition: clickhouse.enabled
   - name: rabbitmq
-    repository: oci://registry-1.docker.io/bitnamicharts
-    version: 12.14.0
+    repository: oci://harbor-repo.vmware.com/vac_vmware_it/charts/photon-4
+    version: 12.14.2
     alias: rabbitmq
     condition: rabbitmq.enabled
   - name: postgresql
@@ -27,6 +27,6 @@ dependencies:
     version: 14.2.6
     condition: postgresql.enabled
   - name: nginx
-    repository: oci://registry-1.docker.io/bitnamicharts
-    version: 15.12.2
+    repository: oci://harbor-repo.vmware.com/vac_vmware_it/charts/photon-4
+    version: 15.12.4
     condition: nginx.enabled
