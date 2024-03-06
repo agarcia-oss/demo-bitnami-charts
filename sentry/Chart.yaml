@@ -11,11 +11,11 @@ dependencies:
     condition: redis.enabled
   - name: kafka
     repository: oci://harbor-repo.vmware.com/vac_vmware_it/charts/photon-4
-    version: 26.11.6
+    version: 27.0.1
     condition: kafka.enabled
   - name: clickhouse
-    repository: oci://registry-1.docker.io/bitnamicharts
-    version: 5.2.3
+    repository: oci://harbor-repo.vmware.com/vac_vmware_it/charts/photon-4
+    version: 5.3.1
     condition: clickhouse.enabled
   - name: rabbitmq
     repository: oci://registry-1.docker.io/bitnamicharts
